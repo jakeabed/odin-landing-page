@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav, footer, .intro-box {
+    background-color: #1F2937;
+}
+
+.intro-box {
+    height: 1000px;
+}
+
+div {
+    border: 1px dotted grey;
+}
