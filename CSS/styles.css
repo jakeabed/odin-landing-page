@@ -30,8 +30,14 @@ nav div ul {
     display: flex;
     justify-content: space-evenly;
     gap: 16px;
-    color: #e5e7eb;
+    color: #ccccd1;
     font-size: 18px;
+}
+
+ul li a {
+    color: #ccccd1;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 nav div h1 {
@@ -61,7 +67,7 @@ nav div h1 {
 .hero-text {
     margin: 0;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #ccccd1;
     font-weight: 400;
     line-height: 125%;
 }
