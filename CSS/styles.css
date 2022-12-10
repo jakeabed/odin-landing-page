@@ -99,6 +99,7 @@ nav div h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 3vw;
+    padding-bottom: 5vh;
 }
 
 .info-card {
@@ -108,7 +109,7 @@ nav div h1 {
     flex-direction: column;
     align-items: center;
     padding: 3vw 1vw 2vw 1vw;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .info-card-header {
@@ -120,7 +121,7 @@ nav div h1 {
 }
 
 .card-pic {
-    max-width: 150px;
+    max-width: 200px;
     min-width: 100px;
     height: auto;
     border-radius: 10%;
@@ -136,7 +137,7 @@ nav div h1 {
 }
 
 .quote-box {
-    padding: 8vh 20vw 8vh 20vw;
+    padding: 12vh 20vw 10vh 20vw;
     background-color: #E5E7EB;
 }
 
@@ -153,27 +154,50 @@ nav div h1 {
     font-size: 24px;
     margin: 0;
     text-align: right;
+    padding-right: 16px;
 }
 
 .call-to-action-container {
     margin: 0 auto;
-    padding: 5vh 10vw 5vh 10vw;
+    padding: 10vh 13vw 10vh 13vw;
 }
 
 .cta-box {
     background-color: #3882F6;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
     border-radius: 10px;
-    padding: 2vh 6vw 2vh 6vw;
+    padding: 6vh 7vw 6vh 7vw;
 }
 
 .cta-header {
     font-size: 24px;
+    margin: 0;
+}
+
+.cta-text-wrapper {
+    max-width: 70%;
 }
 
 .cta-desc {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+}
+
+.cta-button {
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 24px 10px 24px;
+}
+
+footer {
+    padding: 4vh 0 4vh 0;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
 }
